@@ -1,4 +1,4 @@
-# DETR for MotiveAI Challenge
+# DETR for MotiveAI Dataset
 
 
 ### Useful Links
