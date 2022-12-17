@@ -1,4 +1,4 @@
-# Motive AI Challenge
+# DETR for MotiveAI Challenge
 
 
 ### Useful Links
