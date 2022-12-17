@@ -1,0 +1,108 @@
+{
+  "type": "object",
+  "properties": {
+    "images": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "file_name": {
+              "type": "string"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "height": {
+              "type": "integer"
+            },
+            "width": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "file_name",
+            "id",
+            "height",
+            "width"
+          ]
+        }
+      ]
+    },
+    "annotations": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "image_id": {
+              "type": "integer"
+            },
+            "bbox": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "category_id": {
+              "type": "integer"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "confidence": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "image_id",
+            "bbox",
+            "category_id",
+            "id",
+            "confidence"
+          ]
+        }
+      ]
+    },
+    "categories": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "supercategory": {
+              "type": "string"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "supercategory",
+            "id",
+            "name"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "images",
+    "annotations",
+    "categories"
+  ]
+}

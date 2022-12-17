@@ -1,0 +1,76 @@
+{
+    "images": [
+      {
+        "file_name": "image1.jpeg",
+        "id": 0,
+        "height": 720,
+        "width": 1280
+      },
+      {
+          "file_name": "image2.jpeg",
+          "id": 0,
+          "height": 720,
+          "width": 1280
+        }
+    ],
+    "annotations": [
+      {
+        "image_id": 0,
+        "bbox": [
+          12,
+          335,
+          231,
+          119
+        ],
+        "category_id": 1,
+        "id": 0,
+        "confidence": 0.90
+      },
+      {
+        "image_id": 0,
+        "bbox": [
+          497,
+          339,
+          86,
+          67
+        ],
+        "category_id": 2,
+        "id": 1,
+        "confidence": 0.60
+      },
+      {
+          "image_id": 1,
+          "bbox": [
+            297,
+            229,
+            76,
+            45
+          ],
+          "category_id": 3,
+          "id": 1,
+          "confidence": 0.60
+        }
+    ],
+    "categories": [
+      {
+        "supercategory": "none",
+        "id": 1,
+        "name": "Car"
+      },
+      {
+        "supercategory": "none",
+        "id": 2,
+        "name": "Truck"
+      },
+      {
+        "supercategory": "none",
+        "id": 3,
+        "name": "StopSign"
+      },
+      {
+        "supercategory": "none",
+        "id": 4,
+        "name": "traffic_lights"
+      }
+    ]
+  }
